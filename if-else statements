@@ -1,0 +1,91 @@
+IF-ELSE
+
+// Decision making statements
+// To check if the number is even or odd.
+#include <iostream>
+using namespace std;
+
+int main() {
+	int num;
+	cout<<"Enter a number: ";
+	cin>>num;
+    
+	if (num%2==0){
+    	cout<<"Number is even.";
+	}
+	else{
+    	cout<<"Number is odd.";
+	}
+    
+	return 0;
+}
+
+OUTPUT:
+Enter a number: 45983
+Number is odd.
+
+
+
+
+
+// Check whether a character is a vowel or a consonant.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	char a;
+	cout<<"Enter a character: ";
+	cin>>a;
+    
+	if (a=='A'||a=='a'||a=='E'||a=='e'||a=='I'||a=='i'||a=='O'||a=='o'||a=='U'||a=='u'){
+    	cout<<a<<" is a vowel.";
+	}
+	else{
+    	cout<<a<<" is a consonant.";
+	}
+    
+	return 0;
+}
+
+OUTPUT:
+Enter a character: v
+v is a consonant.
+
+
+// To find the largest among three numbers (nested if-else)
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a, b, c;
+	cout<<"Enter 3 numbers: ";
+	cin>>a;
+	cin>>b;
+	cin>>c;
+    
+	if(a > b){
+    	if(a>c){
+        	cout<<a<<" is the largest number.";
+    	}
+    	else {
+        	cout<<c<<" is the largest number.";
+    	}
+	}
+	else if(b>c){
+    	cout<<b<<" is the largest number.";
+	}
+	else{
+    	cout<<c<<" is the largest number.";
+	}
+	return 0;
+}
+
+
+OUTPUT:
+
+Enter 3 numbers: 10 15 13
+15 is the largest number.
+
+=== Code Execution Successful ===
+
