@@ -1,4 +1,4 @@
-SWITCH-CASE
+// SWITCH-CASE
 
 
 #include <iostream>
@@ -44,7 +44,7 @@ int main() {
 
 
 
-
+/*
 OUTPUT:
 Which continent is your country located in?
 1. Asia
@@ -58,3 +58,4 @@ Which continent is your country located in?
 Your continent is Europe
 
 === Code Execution Successful ===
+*/
